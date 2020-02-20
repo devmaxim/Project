@@ -1,0 +1,43 @@
+.prepared
+	padding-top: 200px
+	padding-bottom: 120px
+	&__text
+		&-title
+			color: $text-color-dark
+			font-family: $montserrat-semibold
+			font-size: 30px
+			line-height: 45px
+			margin-bottom: 30px
+		&_important
+			color: $active-color
+			font-family: $heuristica-bold
+		&-description
+			color: $title-color
+			font-family: $montserrat-regular
+			font-size: 20px
+			line-height: 26px
+	&__image
+		img
+			max-width: 100% 
+	&__line
+		&_top
+			position: absolute
+			width: 80%
+			height: 2px
+			background-color: $line-color
+			top: -30px
+			left: 50%
+			-webkit-transform: translateX(-50%) 
+			-moz-transform: translateX(-50%) 
+			-ms-transform: translateX(-50%) 
+			-o-transform: translateX(-50%) 
+			transform: translateX(-50%) 
+			
+		&_left
+			position: absolute
+			width: 2px
+			height: 25%
+			background-color: $line-color
+			top: 30px
+			left: -20px
+			

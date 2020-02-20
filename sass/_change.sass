@@ -1,0 +1,119 @@
+.change
+	background-color: $bg-section-grey 
+	padding-top: 88px
+	padding-bottom: 78px
+	img
+		max-width: 100%
+	&__image
+		position: relative
+		&-before
+			img
+				-webkit-transition: .3s 
+				-moz-transition: .3s 
+				-ms-transition: .3s 
+				-o-transition: .3s 
+				transition: .3s 
+				&:hover
+					-webkit-transform: scale(1.03) 
+					-moz-transform: scale(1.03) 
+					-ms-transform: scale(1.03) 
+					-o-transform: scale(1.03) 
+					transform: scale(1.03) 
+			&::before
+				content: 'До' 
+				position: absolute
+				right: 25px
+				top: -50px
+				color: $active-color
+				font-family: $montserrat-medium
+				font-size: 30px
+				line-height: 39px
+		&-after
+			img
+				-webkit-transition: .3s 
+				-moz-transition: .3s 
+				-ms-transition: .3s 
+				-o-transition: .3s 
+				transition: .3s 
+				&:hover
+					-webkit-transform: scale(1.03) 
+					-moz-transform: scale(1.03) 
+					-ms-transform: scale(1.03) 
+					-o-transform: scale(1.03) 
+					transform: scale(1.03) 
+			&::after
+				content: 'После' 
+				position: absolute
+				left: 0
+				bottom: -45px
+				color: $active-color
+				font-family: $montserrat-medium
+				font-size: 30px
+				line-height: 39px
+	&__line
+		&_top
+			position: absolute
+			width: 65%
+			height: 2px
+			background-color: $line-color
+			top: -30px
+			left: 0
+		&_right
+			position: absolute
+			width: 2px
+			height: 80%
+			background-color: $line-color
+			right: -15px
+			top: 50%
+			-webkit-transform: translateY(-50%) 
+			-moz-transform: translateY(-50%) 
+			-ms-transform: translateY(-50%) 
+			-o-transform: translateY(-50%) 
+			transform: translateY(-50%) 
+		&_bottom
+			position: absolute
+			width: 60%
+			height: 2px
+			background-color: $line-color
+			bottom: -30px
+			right: 0
+	&__text
+		&-title
+			color: $text-color-dark
+			font-family: $heuristica-bold
+			font-size: 34px
+			line-height: 47px
+			margin-bottom: 20px
+		&_important
+			color: $active-color 
+		&-description
+			color: $title-color
+			font-family: $montserrat-regular
+			font-size: 20px
+			line-height: 26px
+			margin-bottom: 30px
+	&__button
+		width: 90%
+		display: block
+		margin-bottom: 10px
+		border: none
+		background-color: $active-color
+		color: $text-color-light
+		font-family: $montserrat-semibold
+		padding-top: 15px
+		padding-bottom: 15px
+		font-size: 18px
+		line-height: 27px
+		-webkit-transition: .4s
+		-moz-transition: .4s
+		-ms-transition: .4s
+		-o-transition: .4s
+		transition: .4s 
+		&:hover 
+			background-color: $bg-button-color
+	&__label
+		color: $title-color
+		font-family: $montserrat-regular
+		font-size: 14px
+		line-height: 18px
+		

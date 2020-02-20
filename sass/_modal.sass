@@ -1,0 +1,62 @@
+.modal
+	display: none
+	width: 100%
+	height: 100%
+	position: fixed
+	background-color: rgba(0,0,0,0.6)
+	&__form
+		text-align: center
+		box-shadow: 0 0 30px #e5e5e5
+		background-color: #FFF
+		padding-top: 20px
+		padding-bottom: 30px
+		position: fixed
+		top: 200px
+		left: 50%
+		width: 750px 
+		transform: translateX(-50%)
+	&__title
+		color: $active-color
+		font-family: $montserrat-medium
+		font-size: 30px
+		line-height: 39px
+		margin-bottom: 5px
+	&__subtitle
+		color: $text-color-dark
+		font-family: $montserrat-medium
+		font-size: 20px
+		line-height: 26px
+		margin-bottom: 30px
+	input
+		text-align: center
+		color: #939393
+		font-family: $montserrat-semibold
+		font-size: 16px
+		line-height: 24px
+		padding-top: 10px
+		padding-bottom: 10px
+		border: 1px solid #000000
+		&:focus
+			outline: none
+	&__button
+		background-color: $active-color 
+		color: $text-color-light
+		font-family: $montserrat-semibold
+		font-size: 18px
+		line-height: 23px
+		border: none
+		padding: 12px 40px 
+		-webkit-transition: .4s
+		-moz-transition: .4s
+		-ms-transition: .4s
+		-o-transition: .4s
+		transition: .4s 
+		&:hover 
+			background-color: $bg-button-color
+	&__close
+		position: absolute
+		top: -27px
+		right: -17px
+		font-size: 24px 
+		cursor: pointer
+		color: #FFF 

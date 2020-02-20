@@ -1,0 +1,75 @@
+.catalog
+	background-color: rgba(161, 209, 209, 0.3)
+	&__image
+		img
+			max-width: 100%
+			margin:
+				top: 30px
+				left: -30px
+				bottom: -40px
+	&__text
+		&-title
+			color: $text-color-dark
+			font-family: $heuristica-bold
+			font-size: 30px
+			line-height: 45px
+			margin-top: 50px
+			margin-bottom: 20px
+		&-description
+			color: $title-color
+			font-family: $montserrat-medium
+			font-size: 20px
+			line-height: 26px
+			display: block
+			margin-bottom: 16px
+	&__form
+		margin-top: 26px
+		&-select
+			color: $text-color-dark
+			font-family: $montserrat-semibold
+			font-size: 18px
+			line-height: 27px
+			padding: 
+				top: 15px
+				bottom: 15px
+				left: 15px
+			border: 1px solid #343232
+			background-color: transparent
+			width: 35%
+			option
+				background-color: rgba(161, 209, 209, 0.3)
+			&:focus
+				outline: none
+		&-input
+			background-color: transparent
+			border: none 
+			border-bottom: 1px solid #343232
+			color: #666666
+			font-family: $montserrat-medium
+			font-size: 18px
+			line-height: 27px
+			margin-left: 21px
+			padding-top: 10px
+			padding-bottom: 10px 
+			padding-left: 10px
+			width: 59%
+			&:focus
+				outline: none
+		&-button
+			margin-top: 20px
+			width: 100%
+			color: $text-color-light
+			font-family: $montserrat-medium
+			font-size: 18px
+			line-height: 23px
+			background-color: $active-color
+			border: none 
+			padding-top: 16px
+			padding-bottom: 16px
+			margin-bottom: 18px
+	&__checkbox
+		&-text
+			color: $title-color
+			font-family: $montserrat-regular
+			font-size: 14px
+			line-height: 18px
