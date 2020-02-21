@@ -133,10 +133,11 @@ button:focus {
     color: #FFF; }
 
 .thanks {
-  display: none;
+  display: block;
   width: 100%;
   height: 100%;
-  position: fixed; }
+  position: fixed;
+  z-index: 10; }
   .thanks__content {
     text-align: center;
     box-shadow: 0 0 30px #3B3B3B;
@@ -2185,7 +2186,11 @@ button:focus {
     .footer__tel button {
       font-size: 10px;
       padding: 5px 9px;
-      margin-top: 4px; } }
+      margin-top: 4px; }
+  .modal__form {
+    width: 650px; }
+  .thanks__content {
+    width: 650px; } }
 
 @media (max-width: 767px) {
   .header {
@@ -2642,7 +2647,25 @@ button:focus {
       text-align: center;
       margin-top: 10px; }
   .footer__schedule {
-    font-size: 12px; } }
+    font-size: 12px; }
+  .modal__form {
+    width: 450px;
+    top: 100px; }
+  .modal__button {
+    margin-top: 10px;
+    width: 70%; }
+  .modal__close {
+    right: 0;
+    top: -15px;
+    font-size: 34px;
+    color: #289A96; }
+  .thanks__content {
+    width: 450px;
+    top: 100px; }
+  .thanks__close {
+    right: 0;
+    top: -15px;
+    font-size: 34px; } }
 
 @media (max-width: 480px) {
   .catalog__checkbox-text {
@@ -2654,4 +2677,21 @@ button:focus {
   .backlight-arrow_up {
     left: 21%; }
   .completed-arrow_up {
-    left: 27%; } }
+    left: 27%; }
+  .modal__form {
+    width: 300px;
+    top: 50px; }
+  .modal input {
+    margin-bottom: 10px; }
+  .modal__title {
+    margin-bottom: 10px;
+    font-size: 22px; }
+  .modal__subtitle {
+    font-size: 14px; }
+  .thanks__content {
+    width: 300px;
+    top: 50px; }
+  .thanks__title {
+    font-size: 24px; }
+  .thanks__subtitle {
+    font-size: 18px; } }
