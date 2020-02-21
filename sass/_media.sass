@@ -15,13 +15,21 @@
 	.main
 		&__title
 			padding-bottom: 25px
+			&::before
+				width: 900px
 			h1
 				font-size: 35px
 		&__subtitle
 			h3
 				font-size: 22px
 		&__button
+			&s
+				margin-left: auto
+				margin-right: auto
+				width: 300px
+				margin-bottom: 40px
 			padding: 15px 18px
+			margin-bottom: 20px
 			&-1
 				margin-right: 15px
 		&__list
@@ -55,10 +63,15 @@
 					font-size: 12px
 				span
 					font-size: 16px
-	.assortment
 		&__button
+			&s
+				margin-left: auto
+				margin-right: auto 
+				width: 190px
 			padding: 8px
 			margin-right: 0
+			margin-bottom: 15px
+			
 	.comfort
 		&__item
 			&-text
@@ -89,8 +102,19 @@
 				bottom: 11%
 	.communication
 		&__form
+			h3
+				font-size: 28px
+				max-width: 95%
+				margin-left: auto
+				margin-right: auto
+			h4
+				font-size: 17px
+				max-width: 95%
+				margin-left: auto
+				margin-right: auto
 			input
 				margin-right: 10px
+				width: 47%
 			button
 				margin-top: 10px
 				width: 70%
@@ -99,11 +123,23 @@
 				font-size: 17px 
 	.discount
 		&__form
+			h3
+				max-width: 95%
+				margin-left: auto
+				margin-right: auto
+			h4
+				max-width: 95%
+				margin-left: auto
+				margin-right: auto
 			input 
 				margin-right: 10px
+				width: 47%
 			button
 				margin-top: 10px
 				width: 60%
+	.calculation
+		&__button
+			width: 100%
 		&__list
 			&-item
 				font-size: 16px
@@ -118,10 +154,17 @@
 		&__form
 			h3
 				font-size: 28px
+				max-width: 95%
+				margin-left: auto
+				margin-right: auto
 			h4
 				font-size: 17px
+				max-width: 95%
+				margin-left: auto
+				margin-right: auto
 			input
 				margin-right: 10px
+				width: 47%
 			button 
 				width: 70%
 				margin-top: 10px
@@ -163,6 +206,14 @@
 			h3
 				font-size: 17px
 		&__button
+			height: unset
+			width: 180px
+			&s
+				margin-left: 0
+				margin-right: 0
+				width: unset
+				font-size: 12px
+				margin-bottom: 20px		
 			&-text
 				font-size: 14px
 		&__list
@@ -284,6 +335,7 @@
 			&s
 				margin-left: auto
 				margin-right: auto 
+				width: 390px
 		&__image
 			&-text
 				p
@@ -684,6 +736,13 @@
 				font-size: 10px
 				padding: 5px 9px
 				margin-top: 4px
+		&__social
+			&-icons
+				a
+					margin-right: 7px
+					img
+						width: 16px
+						height: 16px
 	.modal
 		&__form
 			width: 650px
@@ -906,6 +965,8 @@
 			margin-left: auto
 			margin-right: auto
 			&-text
+				h3
+					font-size: 22px
 				&_bottom
 					width: 70%
 					bottom: -70px
@@ -1161,6 +1222,11 @@
 				color: #212121
 				font-family: $montserrat-regular
 				font-size: 14px
+			a
+				text-decoration: none
+				color: $text-color-dark
+				font-family: $montserrat-regular
+				font-size: 14px 
 		&__tel
 			color: #212121
 			font-family: $montserrat-medium
@@ -1182,18 +1248,18 @@
 		&__tel
 			display: none
 		&__address
-			font-size: 12px
 			&-tel
 				color: #ffffff
 				font-family: $montserrat-medium
 				font-size: 12px
-				line-height: 15px
 				text-decoration: underline
-				display: block
-				text-align: center
-				margin-top: 10px
 		&__schedule
 			font-size: 12px
+		&__social
+			&-icons
+				a
+					margin-right: 5px
+		
 	.modal
 		&__form
 			width: 450px
@@ -1230,7 +1296,9 @@
 	.backlight
 		&-arrow
 			&_up
-				left: 21%
+				left: 30%
+			&_down
+				left: 50%
 	.completed
 		&-arrow
 			&_up
