@@ -1603,7 +1603,8 @@ button:focus {
   -webkit-filter: brightness(70%);
   -moz-filter: brightness(70%);
   -o-filter: brightness(70%);
-  z-index: -1; }
+  z-index: -1;
+  border: none; }
 
 .contact__block-address {
   position: absolute;
