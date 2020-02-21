@@ -1,6 +1,6 @@
 $(function(){
 
-	$('.main__button-1, .assortment__button-2, .header__icon-media, .header__call-action, .change__button, .calculation__button, .footer__tel-button').click(function(){
+	$('.main__button-1, .assortment__button-2, .header__call-action, .change__button, .calculation__button, .footer__tel-button').click(function(){
 		$('.modal').show();
 	});
 	$('.modal__close').click(function(){
