@@ -7,7 +7,7 @@ $(function(){
 		$('.modal').hide();
 	});
 	$('.thanks__close').click(function(){
-		$('.thanks').toggleClass('thanks__show');
+		$('.thanks').hide();
 	});
 
 	$('.backlight__slider').slick({
@@ -72,7 +72,7 @@ $(function(){
 		}).done(function() {
 			$(this).find("input").val("");
 			$("form").trigger("reset");
-			$('.thanks').toggleClass('thanks__show');
+			$('.thanks').show();
 		});
 		return false;
 	});
@@ -86,7 +86,7 @@ $(function(){
 			$(this).find("input").val("");
 			$("form").trigger("reset");
 			$('.modal').hide();
-			$('.thanks').toggleClass('thanks__show');
+			$('.thanks').show();
 		});
 		return false;
 	});
@@ -99,7 +99,7 @@ $(function(){
 		}).done(function() {
 			$(this).find("input").val("");
 			$("form").trigger("reset");
-			$('.thanks').toggleClass('thanks__show');
+			$('.thanks').show();
 		});
 		return false;
 	});
@@ -112,7 +112,7 @@ $(function(){
 		}).done(function() {
 			$(this).find("input").val("");
 			$("form").trigger("reset");
-			$('.thanks').toggleClass('thanks__show');
+			$('.thanks').show();
 		});
 		return false;
 	});
