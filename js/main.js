@@ -20,7 +20,7 @@ $(function(){
 		nextArrow: '<div class="backlight-arrow backlight-arrow_down"></div>',
 		responsive: [	
 			{		   
-			    breakpoint: 767,
+			    breakpoint: 768,
 			    settings:  {
 			    	vertical: false,
 			    	verticalSwiping: false

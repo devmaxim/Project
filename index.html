@@ -14,14 +14,14 @@
 	<!-- Header -->
 	<header class="header">
 		<div class="container">
-			<div class="row align-items-center">
+			<div class="row justify-content-around align-items-center">
 				<div class="col-6 col-md-5 col-lg-4">
 					<div class="header__text">
 						<h2 class="header__text-title">Красивые лестницы</h2>
 						<span class="header__text-subtitle">Балясины и перила для вашей лестницы</span>
 					</div>
 				</div>
-				<div class="col-4 col-md-3 col-lg-2">
+				<div class="col-3 col-md-3 col-lg-2">
 					<div class="header__download">
 						<a href="#">
 							<span class="header__download-text">Скачать каталог</span>
@@ -66,7 +66,7 @@
 	<section class="main">
 		<div class="container">
 			<div class="row justify-content-center">
-				<div class="col-10 col-md-7">
+				<div class="col-12 col-md-7 main__media">
 					<div class="main__title">
 						<h1>Придайте <span class="main__title_important">«воздушность»</span> <br> вашей лестнице <br> с помощью оригинальных <br> и изящных балясин</h1>
 					</div>
@@ -80,8 +80,9 @@
 					<ul class="main__list">
 						<li class="main__list-item">Впишутся в любой стиль интерьера</li>
 						<li class="main__list-item">Прочнее и надежнее стекла</li>
-						<li class="main__list-item">Легко монтируются и не требуют сложного ухода</li>
-						<li class="main__list-item">Подчеркнут индивидуальность вашего дома</li>
+						<li class="main__list-item d-none d-xl-block">Легко монтируются и не требуют сложного ухода</li>
+						<li class="main__list-item d-block d-xl-none">Не требуют сложного ухода</li>
+						<li class="main__list-item">Подчеркнут индивидуальность <span class="d-none d-lg-inline">вашего</span> дома</li>
 					</ul>
 				</div>
 				<div class="col-10 col-md-5">
@@ -102,7 +103,7 @@
 		<div class="container">
 			<div class="backlight__text">
 				<div class="backlight__text-title">
-					<h2 class="backlight__text-title"><span class="backlight__text-title_important">Балясины и перила</span> из акрила позволят вам создать действительно оригинальный и современный дизайн</h2>
+					<h2 class="backlight__text-title"><span class="backlight__text-title_important">Балясины и перила</span> из акрила позволят вам создать <span class="d-none d-md-inline">действительно</span> оригинальный и современный дизайн</h2>
 				</div>
 				<span class="backlight__text-subtitle">
 					Вы не увидите похожую лестницу у своих соседей
@@ -149,7 +150,7 @@
 				<div class="col-10 col-md-5 align-self-center">
 					<div class="backlight__advantages">
 						<h2>Создайте <span class="backlight__text_important">особую <br> атмосферу</span> в доме <span class="backlight__text_hidden">c помощью подсветки</span></h2>
-						<p>За счет принципиально новых технологий можно изготовить акриловые алясины со светодиодной подсветкой</p>
+						<p>За счет принципиально новых технологий можно изготовить акриловые балясины со светодиодной подсветкой</p>
 						<div class="backlight__advantages-list">
 							<span>Такая подсветка:</span>
 							<ul class="backlight__list">
@@ -179,9 +180,9 @@
 							<p class="advantages__list-title">Преимущества современных и оригинальных балясин:</p>
 							<ul class="advantages__list">
 								<li class="advantages__list-item">Пропускают максимум света</li>
-								<li class="advantages__list-item">Визуально расширяют пространство и делают его более светлым</li>
+								<li class="advantages__list-item advantages__list-item-2">Визуально расширяют пространство и делают его более светлым</li>
 								<li class="advantages__list-item">Впишутся в любой стиль интерьера</li>
-								<li class="advantages__list-item">Остаются прозрачными в течение всего срока эксплуатации</li>
+								<li class="advantages__list-item advantages__list-item-4">Остаются прозрачными в течение всего срока эксплуатации</li>
 							</ul>
 						</div>
 					</div>
@@ -219,7 +220,7 @@
 						<div class="safety__list-text">
 							<p class="safety__list-title">Акриловые балясины:</p>
 							<ul class="safety__list">
-								<li class="safety__list-item">Надежно крепятся к лестнице, не cкрипят</li>
+								<li class="safety__list-item">Надежно крепятся к лестнице<span class="d-none d-md-inline">, не cкрипят</span></li>
 								<li class="safety__list-item">Прочнее стекла в 10 раз</li>
 								<li class="safety__list-item">Влагостойкие, нетоксичные</li>
 								<li class="safety__list-item">Срок службы более 50 лет</li>
@@ -256,9 +257,11 @@
 							<img src="img/assortment/assortment-image_1.png" alt="">
 						</div>
 						<div class="assortment__image-text">
-							<img src="img/assortment/assortment-line_top.png" alt="Линия">
+							<img src="img/assortment/assortment-line_top-media.png" alt="Линия" class="d-block d-md-none">
+							<img src="img/assortment/assortment-line_top.png" alt="Линия" class="d-none d-md-block">
 							<p><span>KLE-217</span><br>Акрил,&nbsp;сталь<br> 60*850 мм</p>
-							<img src="img/assortment/assortment-line_bottom.png" alt="Линия">
+							<img src="img/assortment/assortment-line_bottom-media.png" alt="Линия" class="d-block d-md-none">
+							<img src="img/assortment/assortment-line_bottom.png" alt="Линия" class="d-none d-md-block">
 						</div>
 					</div>
 				</div>
@@ -268,9 +271,11 @@
 							<img src="img/assortment/assortment-image_2.png" alt="">
 						</div>
 						<div class="assortment__image-text">
-							<img src="img/assortment/assortment-line_top.png" alt="Линия">
+							<img src="img/assortment/assortment-line_top-media.png" alt="Линия" class="d-block d-md-none">
+							<img src="img/assortment/assortment-line_top.png" alt="Линия" class="d-none d-md-block">
 							<p><span>KLE-273</span><br>Акрил,&nbsp;сталь<br> 60*850 мм</p>
-							<img src="img/assortment/assortment-line_bottom.png" alt="Линия">
+							<img src="img/assortment/assortment-line_bottom-media.png" alt="Линия" class="d-block d-md-none">
+							<img src="img/assortment/assortment-line_bottom.png" alt="Линия" class="d-none d-md-block">
 						</div>
 					</div>
 				</div>
@@ -363,7 +368,7 @@
 					<div class="comfort__item">
 						<img src="img/comfort/comfort-item-1.svg" alt="Иконка">
 						<div class="comfort__item-text">
-							<p>Вы увидите балясины в живую,<br> оцените их красоту и качество</p>
+							<p>Вы&nbsp;увидите&nbsp;балясины&nbsp;в&nbsp;живую, оцените&nbsp;их&nbsp;красоту&nbsp;и&nbsp;качество</p>
 						</div>
 					</div>
 				</div>
@@ -371,7 +376,7 @@
 					<div class="comfort__item">
 						<img src="img/comfort/comfort-item-2.svg" alt="Иконка">
 						<div class="comfort__item-text">
-							<p>Мы рассчитаем колличество<br> балясин и стоимость лестницы</p>
+							<p>Мы&nbsp;рассчитаем&nbsp;колличество балясин&nbsp;и&nbsp;стоимость&nbsp;лестницы</p>
 						</div>
 					</div>
 				</div>
@@ -379,7 +384,7 @@
 					<div class="comfort__item">
 						<img src="img/comfort/comfort-item-3.svg" alt="Иконка">
 						<div class="comfort__item-text">
-							<p>Совместно обсудим детали<br> (цвет, форму, монтаж и т.д.)</p>
+							<p>Совместно&nbsp;обсудим&nbsp;детали (цвет,&nbsp;форму,&nbsp;монтаж&nbsp;и&nbsp;т.д.)</p>
 						</div>
 					</div>
 				</div>
@@ -388,7 +393,7 @@
 				<img src="img/comfort/Comfort-image.png" alt="Офис">
 				<div class="comfort__line_left"></div>
 				<div class="comfort__line_bottom"></div>
-				<p class="comfort__image-text_bottom d-block d-lg-none"><span class="comfort__image-text_important">По адресу:</span> Нижний Новгород ул.Родионова 193/2 пом.3</p>
+				<p class="comfort__image-text_bottom d-block d-lg-none"><span class="comfort__image-text_important">По адресу:</span> Нижний Новгород ул.Родионова 193/2<span class="d-none d-md-inline"> пом.</span><span class="d-inline d-md-none">, помещение</span> 3</p>
 				<div class="comfort__image-text">
 					<h3>Скоро открытие!!!</h3>
 					<p class="d-none d-lg-block"><span class="comfort__image-text_important">По адресу: </span>Нижний Новгород ул.Родионова 193/2 пом.3</p>
@@ -440,7 +445,7 @@
 				<div class="col-10 col-md-6 col-lg-4 align-self-center">
 					<div class="prepared__text">
 						<div class="prepared__text-title">
-							<h2>Постоянное <span class="prepared__text_important">наличие более 55 видов</span> продукции на нашем складе</h2>
+							<h2>Постоянное&nbsp;<span class="prepared__text_important">наличие более&nbsp;55&nbsp;видов</span>&nbsp;продукции на&nbsp;нашем&nbsp;складе</h2>
 						</div>
 						<div class="prepared__text-description">
 							<p>Мы всегда готовы <br>к отгрузке вашего заказа</p>
@@ -485,10 +490,10 @@
 				<div class="col-10 col-md-12 col-lg-6 align-self-center order-1">
 					<div class="change__text">
 						<div class="change__text-title">
-							<h2><span class="change__text_important">Поменяйте стиль</span> вашей существующей лестницы <span class="change__text_important">без глобальных изменений</span> ее конструкции</h2>
+							<h2><span class="change__text_important">Поменяйте&nbsp;стиль</span>&nbsp;вашей существующей&nbsp;лестницы <span class="change__text_important">без&nbsp;глобальных&nbsp;изменений</span> ее&nbsp;конструкции</h2>
 						</div>
 						<div class="change__text-description d-none d-lg-block">
-							<p>При этом вы будете пользоваться лестницей в процессе проведения работ</p>
+							<p>При этом вы будете&nbsp;пользоваться лестницей&nbsp;в&nbsp;процессе проведения работ</p>
 						</div>
 						<form action="#" class="change__form d-none d-lg-block">
 							<button class="change__button">Получить консультацию</button>
@@ -536,7 +541,7 @@
 	<!-- Communication -->
 	<section class="communication">
 		<div class="container">
-			<div class="row justify-content-center align-items-center align-items-lg-baseline">
+			<div class="row justify-content-center align-items-center align-items-lg-start">
 				<div class="col-10 col-md-12 col-lg-5">
 					<div class="communication__text">
 						<div class="communication__text-title">
@@ -751,7 +756,8 @@
 			<div class="row justify-content-between align-items-end">
 				<div class="col-6 col-md-3">
 					<div class="footer__address">
-						<p>Нижний Новгород<br>ул. Родионова 193 кор. 2  <br>Помещение 3</p>
+						<span class="d-none d-md-inline d-lg-none">Адрес:</span>
+						<p>Нижний&nbsp;Новгород<br>ул.&nbsp;Родионова&nbsp;193&nbsp;кор.&nbsp;2  <br>Помещение&nbsp;3</p>
 						<a href="tel:+79103978777" class="footer__address-tel d-block d-md-none">8 (910) 397-87-77</a>
 						<div class="footer__social-icons d-block d-md-none">
 							<a href="№"><img src="img/social/facebook.svg" alt="facebook"></a>
@@ -761,20 +767,20 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-6 col-md-3">
+				<div class="col-6 col-md-3 col-lg-4 align-self-start align-self-md-end">
 					<div class="footer__schedule">
-						<p>График работы: <br>Вт–сб : 10:00–19:00<span class="d-none d-lg-inline">, без перерыва</span> <br>Вскр : 10:00-15:00<span class="d-none d-lg-inline">, пн: выходной</span></p>
+						<p><span class="footer__schedule_underline">График&nbsp;работы:</span> <br>Вт–сб&nbsp;:&nbsp;10:00–19:00<span class="d-none d-lg-inline">,&nbsp;без&nbsp;перерыва</span> <br>Вскр&nbsp;:&nbsp;10:00-15:00<span class="d-none d-lg-inline">,&nbsp;пн:&nbsp;выходной</span></p>
 						<span class="d-inline d-lg-none">Пн : выходной</span>
 						<a href="#" class="footer__schedule-logo d-block d-md-none">Сделано в <img src="img/footer/footer__logo.svg" alt="Логотип"></a>
 					</div>
 				</div>
-				<div class="col-3 col-lg-2 align-self-lg-end">
+				<div class="col-3 col-sm-3 col-md-3 col-lg-2 align-self-lg-end">
 					<div class="footer__make d-none d-md-block">
 						<span>Сделано в</span>
 						<a href="#"><img src="img/footer/footer__logo.svg" alt="Логотип"></a>
 					</div>
 				</div>
-				<div class="col-3">
+				<div class="col-3 align-self-end align-self-md-start align-self-lg-end flex-wrap">
 					<div class="footer__social-icons d-none d-md-block d-lg-none">
 						<a href="№"><img src="img/social/facebook.svg" alt="facebook"></a>
 						<a href="№"><img src="img/social/telegram.svg" alt="telegram"></a>

@@ -20,14 +20,14 @@
 			h1
 				font-size: 35px
 		&__subtitle
+			margin-bottom: 0
+			margin-top: 20px
 			h3
 				font-size: 22px
 		&__button
+			width: 250px
 			&s
-				margin-left: auto
-				margin-right: auto
-				width: 300px
-				margin-bottom: 40px
+				margin-bottom: 0
 			padding: 15px 18px
 			margin-bottom: 20px
 			&-1
@@ -35,6 +35,7 @@
 		&__list
 			&-item
 				font-size: 16px
+				line-height: 22px
 		&__image
 			&_bg
 				right: -7%
@@ -92,6 +93,11 @@
 			&-before
 				&::before
 					font-size: 25px
+	.prepared
+		&__text
+			&-title
+				h2
+					font-size: 26px
 	.backlight
 		&-arrow
 			&_up
@@ -168,6 +174,13 @@
 			button 
 				width: 70%
 				margin-top: 10px
+	.footer
+		&__address
+			font-size: 16px
+		&__schedule
+			font-size: 16px
+		&__tel
+			font-size: 16px
 				
 @media (max-width: 991px)
 	.header
@@ -198,7 +211,7 @@
 			h1
 				font-size: 25px
 		&__subtitle
-			margin: 20px 0
+
 			&_important
 				color: #c3994f
 				&::after
@@ -208,14 +221,15 @@
 		&__button
 			height: unset
 			width: 180px
+			padding-top: 10px
+			padding-bottom: 10px
 			&s
 				margin-left: 0
 				margin-right: 0
 				width: unset
-				font-size: 12px
-				margin-bottom: 20px		
+				font-size: 12px	
 			&-text
-				font-size: 14px
+				font-size: 16px
 		&__list
 			&-item
 				font-size: 14px
@@ -224,6 +238,15 @@
 		&__image
 			&_bg
 				display: none
+			img
+				max-width: 113%
+				margin-left: -32px
+		&__line
+			&_bottom
+				left: -47px
+			&_left
+				left: -47px
+				height: 20%
 	.backlight
 		padding: 10px
 		&__text
@@ -398,6 +421,8 @@
 				font-size: 22px
 				text-align: center
 	.catalog
+		padding-top: 0
+		padding-bottom: 10px
 		&__text
 			&-title
 				h2
@@ -585,6 +610,7 @@
 				font-size: 16px
 				line-height: 24px
 	.discount
+		padding-top: 80px
 		&__text
 			&-title
 				margin-left: 0
@@ -633,7 +659,7 @@
 				font-size: 18px
 				line-height: 23px
 		&__button
-			width: 100%
+			width: 98%
 			padding-top: 12px
 			padding-bottom: 12px
 	.cooperation
@@ -725,9 +751,13 @@
 		&__address
 			font-size: 14px
 			line-height: 28px
+			span
+				text-decoration: underline 
 		&__schedule
 			font-size: 14px
 			line-height: 28px
+			&_underline
+				text-decoration: underline 
 		&__tel
 			span
 				font-size: 12px
@@ -738,6 +768,7 @@
 				margin-top: 4px
 		&__social
 			&-icons
+				margin-bottom: 25px
 				a
 					margin-right: 7px
 					img
@@ -751,6 +782,7 @@
 			width: 650px
 @media (max-width: 767px)
 	.header
+		background-color: #FFF 
 		padding-bottom: 20px
 		padding-top: 20px
 		&__text
@@ -778,24 +810,25 @@
 				&::after
 					display: none
 	.main
-		background: #fff url('../img/main/bg-main_media.png') center no-repeat
-		-webkit-background-size: cover 
-		-o-background-size: cover 
-		background-size: cover 
 		position: relative
-		z-index: 1
 		padding-bottom: 30px
-		// Осветление фона
-		&::before
-			content: ''
-			display: block
-			position: absolute
-			width: 100%
-			height: 100%
-			left: 0
-			top: 0
-			background-color: rgba(255, 255, 255, 0.4)
-			z-index: 0
+		&__media
+			background: #fff url('../img/main/bg-main_media.png') center no-repeat
+			-webkit-background-size: cover 
+			-o-background-size: cover 
+			background-size: cover 
+			z-index: -2
+			// Осветление фона
+			&::before
+				content: ''
+				display: block
+				position: absolute
+				width: 100%
+				height: 100%
+				left: 0
+				top: 0
+				background-color: rgba(255, 255, 255, 0.4)
+				z-index: -1
 		&__image
 			display: none
 		&__title
@@ -810,6 +843,9 @@
 				color: $title-color
 				position: relative
 		&__subtitle
+			max-width: 55%
+			margin-left: auto
+			margin-right: auto 
 			h3
 				text-align: center
 				font-size: 18px
@@ -851,6 +887,9 @@
 				margin-bottom: 10px
 				h2
 					font-size: 20px
+					max-width: 49%
+					margin-left: auto
+					margin-right: auto
 			&_important
 				font-family: $montserrat-italic
 				font-size: 16px
@@ -901,13 +940,23 @@
 				h2
 					text-align: center
 		&__list
+			max-width: 75%
 			&-title
 				text-align: center
 				color: $title-color
 				font-family: $montserrat-italic
 				margin-bottom: 20px
+				max-width: 60%
+				margin-left: auto
+				margin-right: auto
 			&-item
 				font-size: 14px
+				&-2
+					&::before
+						top: 30%
+				&-4
+					&::before
+						top: 30%
 		&__line
 			&_top
 				display: none
@@ -919,6 +968,9 @@
 		&__text
 			&-title
 				text-align: center
+				max-width: 75%
+				margin-left: auto
+				margin-right: auto
 			&-subtitle
 				font-size: 16px
 				text-align: center
@@ -935,18 +987,19 @@
 			&-description
 				text-align: center
 				margin-bottom: 25px
+				max-width: 60%
 		&__image
 			&-item
 				margin-left: 20px
 			&-text
 				p
-					font-size: 10px
+					font-size: 14px
 					span
-						font-size: 12px
+						font-size: 16px
 	.manufacture
 		&__text
 			&-title
-				width: 80%
+				width: 100%
 				text-align: center
 				margin-left: auto
 				margin-right: auto
@@ -955,11 +1008,18 @@
 	.delivery
 		&__title
 			text-align: center
+			h2
+				font-size: 18px
+		&__list
+			&-item
+				&::before
+					background: transparent url('../img/manufacture/mark-manufacture_media.svg') center no-repeat
+					border: none
 	.comfort
 		padding-top: 60px
 		padding-bottom: 60px
 		&__title
-			width: 80%
+			width: 65%
 		&__image
 			width: 80%
 			margin-left: auto
@@ -981,6 +1041,9 @@
 		&__text
 			&-title
 				text-align: center
+				max-width: 80%
+				margin-left: auto
+				margin-right: auto
 				h2
 					font-size: 18px
 					line-height: 23px
@@ -1022,6 +1085,9 @@
 			text-align: center
 			&-title
 				margin-bottom: 10px
+				max-width: 80%
+				margin-left: auto
+				margin-right: auto
 				h2
 					font-size: 18px
 					line-height: 23px
@@ -1066,6 +1132,10 @@
 			width: 80%
 			margin-left: auto
 			margin-right: auto
+			&-title
+				max-width: 75%
+				margin-left: auto
+				margin-right: auto
 		&-arrow
 			&_up
 				border: 1px solid #c4c4c4
@@ -1082,7 +1152,13 @@
 		padding-bottom: 60px
 		&__text
 			margin-bottom: 40px
+			&-title
+				max-width: 55%
+				margin-left: auto
+				margin-right: auto
 		&__list
+			&-text
+				max-width: 80%
 			&-title
 				font-size: 16px
 				text-align: left
@@ -1114,6 +1190,8 @@
 		&__list
 			&-title
 				font-size: 16px
+				font-family: $montserrat-italic
+				color: $text-color-dark  
 			&-item
 				font-size: 14px
 				line-height: 18px 
@@ -1144,6 +1222,10 @@
 				margin-top: -30%
 		&__text
 			text-align: center
+			&-title
+				max-width: 80%
+				margin-left: auto
+				margin-right: auto 
 	.cooperation
 		padding-top: 60px
 		padding-bottom: 60px
