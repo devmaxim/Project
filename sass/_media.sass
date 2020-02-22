@@ -843,7 +843,7 @@
 				color: $title-color
 				position: relative
 		&__subtitle
-			max-width: 55%
+			width: 250px
 			margin-left: auto
 			margin-right: auto 
 			h3
@@ -885,9 +885,11 @@
 			margin-bottom: 10px
 			&-title
 				margin-bottom: 10px
+				width: 250px
+				margin-left: auto
+				margin-right: auto
 				h2
 					font-size: 20px
-					max-width: 49%
 					margin-left: auto
 					margin-right: auto
 			&_important
@@ -895,6 +897,14 @@
 				font-size: 16px
 			&-subtitle
 				display: none
+		&__list
+			&-item
+				&-4
+					&::before
+						top: 50%
+				&-3
+					&::before
+						top: 50%
 		&__advantages
 			h2
 				text-align: center
@@ -937,10 +947,13 @@
 		padding-bottom: 60px
 		&__text
 			&-title
+				width: 330px
+				margin-left: auto
+				margin-right: auto
 				h2
 					text-align: center
 		&__list
-			max-width: 75%
+			width: 320px
 			&-title
 				text-align: center
 				color: $title-color
@@ -968,7 +981,7 @@
 		&__text
 			&-title
 				text-align: center
-				max-width: 75%
+				width: 260px
 				margin-left: auto
 				margin-right: auto
 			&-subtitle
@@ -987,7 +1000,7 @@
 			&-description
 				text-align: center
 				margin-bottom: 25px
-				max-width: 60%
+				width: 300px
 		&__image
 			&-item
 				margin-left: 20px
@@ -1003,6 +1016,8 @@
 				text-align: center
 				margin-left: auto
 				margin-right: auto
+				h2
+					font-size: 20px
 			&-subtitle
 				display: none
 	.delivery
@@ -1019,7 +1034,7 @@
 		padding-top: 60px
 		padding-bottom: 60px
 		&__title
-			width: 65%
+			width: 330px
 		&__image
 			width: 80%
 			margin-left: auto
@@ -1041,7 +1056,7 @@
 		&__text
 			&-title
 				text-align: center
-				max-width: 80%
+				width: 330px
 				margin-left: auto
 				margin-right: auto
 				h2
@@ -1133,7 +1148,7 @@
 			margin-left: auto
 			margin-right: auto
 			&-title
-				max-width: 75%
+				width: 280px
 				margin-left: auto
 				margin-right: auto
 		&-arrow
@@ -1153,7 +1168,7 @@
 		&__text
 			margin-bottom: 40px
 			&-title
-				max-width: 55%
+				width: 220px
 				margin-left: auto
 				margin-right: auto
 		&__list

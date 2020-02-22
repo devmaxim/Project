@@ -2405,7 +2405,7 @@ button:focus {
         color: #212121;
         position: relative; }
     .main__subtitle {
-      max-width: 55%;
+      width: 250px;
       margin-left: auto;
       margin-right: auto; }
       .main__subtitle h3 {
@@ -2446,10 +2446,12 @@ button:focus {
     .backlight__text {
       margin-bottom: 10px; }
       .backlight__text-title {
-        margin-bottom: 10px; }
+        margin-bottom: 10px;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto; }
         .backlight__text-title h2 {
           font-size: 20px;
-          max-width: 49%;
           margin-left: auto;
           margin-right: auto; }
       .backlight__text_important {
@@ -2457,6 +2459,10 @@ button:focus {
         font-size: 16px; }
       .backlight__text-subtitle {
         display: none; }
+    .backlight__list-item-4::before {
+      top: 50%; }
+    .backlight__list-item-3::before {
+      top: 50%; }
     .backlight__advantages h2 {
       text-align: center;
       font-family: "Montserrat Italic";
@@ -2493,10 +2499,14 @@ button:focus {
   .advantages {
     padding-top: 60px;
     padding-bottom: 60px; }
-    .advantages__text-title h2 {
-      text-align: center; }
+    .advantages__text-title {
+      width: 330px;
+      margin-left: auto;
+      margin-right: auto; }
+      .advantages__text-title h2 {
+        text-align: center; }
     .advantages__list {
-      max-width: 75%; }
+      width: 320px; }
       .advantages__list-title {
         text-align: center;
         color: #212121;
@@ -2520,7 +2530,7 @@ button:focus {
     padding-bottom: 20px; }
     .safety__text-title {
       text-align: center;
-      max-width: 75%;
+      width: 260px;
       margin-left: auto;
       margin-right: auto; }
     .safety__text-subtitle {
@@ -2536,7 +2546,7 @@ button:focus {
     .assortment__text-description {
       text-align: center;
       margin-bottom: 25px;
-      max-width: 60%; }
+      width: 300px; }
     .assortment__image-item {
       margin-left: 20px; }
     .assortment__image-text p {
@@ -2548,6 +2558,8 @@ button:focus {
     text-align: center;
     margin-left: auto;
     margin-right: auto; }
+    .manufacture__text-title h2 {
+      font-size: 20px; }
   .manufacture__text-subtitle {
     display: none; }
   .delivery__title {
@@ -2561,7 +2573,7 @@ button:focus {
     padding-top: 60px;
     padding-bottom: 60px; }
     .comfort__title {
-      width: 65%; }
+      width: 330px; }
     .comfort__image {
       width: 80%;
       margin-left: auto;
@@ -2580,7 +2592,7 @@ button:focus {
     background-color: #FFF; }
     .catalog__text-title {
       text-align: center;
-      max-width: 80%;
+      width: 330px;
       margin-left: auto;
       margin-right: auto; }
       .catalog__text-title h2 {
@@ -2665,7 +2677,7 @@ button:focus {
       margin-left: auto;
       margin-right: auto; }
       .completed__text-title {
-        max-width: 75%;
+        width: 280px;
         margin-left: auto;
         margin-right: auto; }
     .completed-arrow_up {
@@ -2684,7 +2696,7 @@ button:focus {
     .communication__text {
       margin-bottom: 40px; }
       .communication__text-title {
-        max-width: 55%;
+        width: 220px;
         margin-left: auto;
         margin-right: auto; }
     .communication__list-text {
