@@ -180,8 +180,7 @@
 		&__schedule
 			font-size: 16px
 		&__tel
-			font-size: 16px
-				
+			font-size: 16px				
 @media (max-width: 991px)
 	.header
 		&__download
@@ -848,6 +847,7 @@
 			margin-right: auto 
 			h3
 				text-align: center
+				font-family: $montserrat-medium 
 				font-size: 18px
 				line-height: 23px 
 				span
@@ -883,6 +883,9 @@
 		padding-bottom: 80px
 		&__text
 			margin-bottom: 10px
+			&_important
+				font-size: 16px
+				font-family: $montserrat-italic 
 			&-title
 				margin-bottom: 10px
 				width: 250px
@@ -892,9 +895,8 @@
 					font-size: 20px
 					margin-left: auto
 					margin-right: auto
-			&_important
-				font-family: $montserrat-italic
-				font-size: 16px
+				&_important
+					font-size: 20px
 			&-subtitle
 				display: none
 		&__list
@@ -1215,7 +1217,10 @@
 			padding: 20px
 			h3
 				font-size: 16px
-				line-height: 20px
+				line-height: 20px			   
+				color: $title-color
+				font-family: $montserrat-semibold
+				margin-bottom: 10px 
 			h4
 				font-size: 14px
 				line-height: 18px
@@ -1420,6 +1425,204 @@
 			font-size: 24px
 		&__subtitle
 			font-size: 18px
-	
-
-
+@media (max-width: 400px)
+	.main
+		&__title
+			h1
+				font-size: 18px
+		&__subtitle
+			width: unset 
+			h3
+				font-size: 16px				
+	.backlight
+		&__text
+			&-title
+				h2
+					font-size: 16px
+				&_important
+					font-size: 16px
+			&_important
+				font-size: 14px
+		&__advantages
+			h2
+				font-size: 14px
+			&-list
+				span
+					font-size: 14px
+		&__list
+			&-item
+				font-size: 12px
+		&-arrow
+			&_up
+				left: 22%		
+	.advantages
+		&__text
+			&-title
+				width: unset 
+				h2
+					font-size: 16px
+		&__list
+			width: unset 
+			&-title
+				font-size: 14px
+			&-item
+				font-size: 12px					
+	.safety
+		&__text
+			&-title
+				width: 100%
+				h2
+					font-size: 16px
+			&-subtitle
+				font-size: 12px
+		&__list
+			width: 100%
+			&-title
+				font-size: 12px
+			&-item
+				font-size: 12px				
+	.assortment
+		&__text
+			&-title
+				h2
+					font-size: 16px
+			&-description
+				font-size: 12px
+				width: 100%
+		&__image
+			&-item
+				margin-left: -100px
+				&_media
+					display: none
+		&__buttons
+			width: 200px				
+	.manufacture
+		&__text
+			&-title
+				h2
+					font-size: 16px
+	.delivery
+		&__title
+			h2
+				font-size: 16px
+		&__list
+			&-item
+				font-size: 14px
+		
+	.comfort
+		&__title
+			width: 100%
+			h2
+				font-size: 16px	
+		&__image
+			&-text
+				h3
+					font-size: 16px
+				&_bottom
+					font-size: 12px
+					bottom: -95px
+	.catalog
+		&__text
+			&-title
+				width: 100%
+				h2
+					font-size: 16px
+	.prepared
+		&__text
+			&-title
+				width: 100%
+				h2
+					font-size: 16px
+			&-description
+				font-size: 14px
+	.change
+		&__text
+			&-title
+				h2
+					font-size: 16px
+	.completed
+		&__text
+			&-title
+				width: 100%
+				h2
+					font-size: 16px
+			&-subtitle
+				h3
+					font-size: 14px
+					
+	.communication
+		&__text
+			&-title
+				h2
+					font-size: 16px
+		&__list
+			&-title
+				font-size: 14px
+			&-item
+				font-size: 12px
+		&__form
+			input
+				font-size: 12px
+				margin-bottom: 8px
+				width: 100%
+	.discount
+		&__text
+			&-title
+				font-size: 16px
+		&__list
+			&-title
+				font-size: 14px
+			&-item
+				font-size: 12px
+		&__form
+			input
+				font-size: 12px
+				margin-bottom: 8px
+				width: 100%
+	.calculation
+		&__text
+			&-title
+				max-width: 100%
+				h2
+					font-size: 16px
+			&-description
+				font-size: 12px
+		&__button
+			font-size: 16px
+	.cooperation
+		&__list
+			&-title
+				font-size: 14px
+			&-item
+				font-size: 12px
+		&__form
+			input
+				font-size: 12px
+				margin-bottom: 8px
+				width: 100%
+	.contact
+		&__block
+			&-address
+				&-media
+					h4
+						font-size: 16px
+		&__address
+			span
+				font-size: 14px
+			p
+				font-size: 12px
+		&__time
+			span
+				font-size: 14px
+			p
+				font-size: 12px
+			a
+				font-size: 12px
+				
+	.footer
+		&__address
+			font-size: 10px
+			a
+				font-size: 12px
+		&__schedule
+			font-size: 10px

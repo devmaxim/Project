@@ -2410,6 +2410,7 @@ button:focus {
       margin-right: auto; }
       .main__subtitle h3 {
         text-align: center;
+        font-family: "Montserrat Medium";
         font-size: 18px;
         line-height: 23px; }
         .main__subtitle h3 span {
@@ -2445,6 +2446,9 @@ button:focus {
     padding-bottom: 80px; }
     .backlight__text {
       margin-bottom: 10px; }
+      .backlight__text_important {
+        font-size: 16px;
+        font-family: "Montserrat Italic"; }
       .backlight__text-title {
         margin-bottom: 10px;
         width: 250px;
@@ -2454,9 +2458,8 @@ button:focus {
           font-size: 20px;
           margin-left: auto;
           margin-right: auto; }
-      .backlight__text_important {
-        font-family: "Montserrat Italic";
-        font-size: 16px; }
+        .backlight__text-title_important {
+          font-size: 20px; }
       .backlight__text-subtitle {
         display: none; }
     .backlight__list-item-4::before {
@@ -2738,7 +2741,10 @@ button:focus {
       padding: 20px; }
       .discount__form h3 {
         font-size: 16px;
-        line-height: 20px; }
+        line-height: 20px;
+        color: #212121;
+        font-family: "Montserrat Semibold";
+        margin-bottom: 10px; }
       .discount__form h4 {
         font-size: 14px;
         line-height: 18px; }
@@ -2916,3 +2922,145 @@ button:focus {
     font-size: 24px; }
   .thanks__subtitle {
     font-size: 18px; } }
+
+@media (max-width: 400px) {
+  .main__title h1 {
+    font-size: 18px; }
+  .main__subtitle {
+    width: unset; }
+    .main__subtitle h3 {
+      font-size: 16px; }
+  .backlight__text-title h2 {
+    font-size: 16px; }
+  .backlight__text-title_important {
+    font-size: 16px; }
+  .backlight__text_important {
+    font-size: 14px; }
+  .backlight__advantages h2 {
+    font-size: 14px; }
+  .backlight__advantages-list span {
+    font-size: 14px; }
+  .backlight__list-item {
+    font-size: 12px; }
+  .backlight-arrow_up {
+    left: 22%; }
+  .advantages__text-title {
+    width: unset; }
+    .advantages__text-title h2 {
+      font-size: 16px; }
+  .advantages__list {
+    width: unset; }
+    .advantages__list-title {
+      font-size: 14px; }
+    .advantages__list-item {
+      font-size: 12px; }
+  .safety__text-title {
+    width: 100%; }
+    .safety__text-title h2 {
+      font-size: 16px; }
+  .safety__text-subtitle {
+    font-size: 12px; }
+  .safety__list {
+    width: 100%; }
+    .safety__list-title {
+      font-size: 12px; }
+    .safety__list-item {
+      font-size: 12px; }
+  .assortment__text-title h2 {
+    font-size: 16px; }
+  .assortment__text-description {
+    font-size: 12px;
+    width: 100%; }
+  .assortment__image-item {
+    margin-left: -100px; }
+    .assortment__image-item_media {
+      display: none; }
+  .assortment__buttons {
+    width: 200px; }
+  .manufacture__text-title h2 {
+    font-size: 16px; }
+  .delivery__title h2 {
+    font-size: 16px; }
+  .delivery__list-item {
+    font-size: 14px; }
+  .comfort__title {
+    width: 100%; }
+    .comfort__title h2 {
+      font-size: 16px; }
+  .comfort__image-text h3 {
+    font-size: 16px; }
+  .comfort__image-text_bottom {
+    font-size: 12px;
+    bottom: -95px; }
+  .catalog__text-title {
+    width: 100%; }
+    .catalog__text-title h2 {
+      font-size: 16px; }
+  .prepared__text-title {
+    width: 100%; }
+    .prepared__text-title h2 {
+      font-size: 16px; }
+  .prepared__text-description {
+    font-size: 14px; }
+  .change__text-title h2 {
+    font-size: 16px; }
+  .completed__text-title {
+    width: 100%; }
+    .completed__text-title h2 {
+      font-size: 16px; }
+  .completed__text-subtitle h3 {
+    font-size: 14px; }
+  .communication__text-title h2 {
+    font-size: 16px; }
+  .communication__list-title {
+    font-size: 14px; }
+  .communication__list-item {
+    font-size: 12px; }
+  .communication__form input {
+    font-size: 12px;
+    margin-bottom: 8px;
+    width: 100%; }
+  .discount__text-title {
+    font-size: 16px; }
+  .discount__list-title {
+    font-size: 14px; }
+  .discount__list-item {
+    font-size: 12px; }
+  .discount__form input {
+    font-size: 12px;
+    margin-bottom: 8px;
+    width: 100%; }
+  .calculation__text-title {
+    max-width: 100%; }
+    .calculation__text-title h2 {
+      font-size: 16px; }
+  .calculation__text-description {
+    font-size: 12px; }
+  .calculation__button {
+    font-size: 16px; }
+  .cooperation__list-title {
+    font-size: 14px; }
+  .cooperation__list-item {
+    font-size: 12px; }
+  .cooperation__form input {
+    font-size: 12px;
+    margin-bottom: 8px;
+    width: 100%; }
+  .contact__block-address-media h4 {
+    font-size: 16px; }
+  .contact__address span {
+    font-size: 14px; }
+  .contact__address p {
+    font-size: 12px; }
+  .contact__time span {
+    font-size: 14px; }
+  .contact__time p {
+    font-size: 12px; }
+  .contact__time a {
+    font-size: 12px; }
+  .footer__address {
+    font-size: 10px; }
+    .footer__address a {
+      font-size: 12px; }
+  .footer__schedule {
+    font-size: 10px; } }
