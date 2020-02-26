@@ -28,6 +28,11 @@
 		position: relative
 		img
 			max-width: 100% 
+		&-block
+			position: relative
+			width: 100%
+			margin-left: auto
+			margin-right: auto
 		&-line
 			&_top
 				position: absolute
@@ -35,14 +40,14 @@
 				height: 2px
 				background-color: $line-color
 				top: -30px
-				right: 15px
+				right: 0px
 			&_bottom
 				position: absolute
 				width: 125%
 				height: 2px
 				background-color: $line-color
 				bottom: -30px
-				right: 15px 
+				right: 0px
 			&_left
 				position: absolute
 				width: 2px
@@ -127,6 +132,7 @@
 			font-size: 20px
 			line-height: 26px
 			margin-bottom: 30px
+			width: 455px
 		&-list
 			span
 				font-family: $montserrat-medium

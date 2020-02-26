@@ -1,6 +1,13 @@
 
 @media (max-width: 1199px) 
 	.header
+		padding-top: 20px
+		padding-bottom: 20px
+		&__text
+			&-title
+				font-size: 24px
+			&-subtitle
+				font-size: 13px
 		&__download
 			&-text
 				font-size: 14px
@@ -26,8 +33,10 @@
 				font-size: 22px
 		&__button
 			width: 250px
+			height: 50px
 			&s
 				margin-bottom: 0
+				margin-top: 20px
 			padding: 15px 18px
 			margin-bottom: 20px
 			&-1
@@ -36,28 +45,63 @@
 			&-item
 				font-size: 16px
 				line-height: 22px
+				margin-top: -4px
+				margin-bottom: 8px
 		&__image
 			&_bg
 				right: -7%
 				bottom: -7%
 	.backlight
+		&__text
+			&-title
+				h2
+					font-size: 34px
+		&__advantages
+			p
+				width: 400px
+				font-size: 18px
 		&__list
+			width: 400px
 			&-item
-				font-size: 17px
+				font-size: 16px
 		&__slider
 			&-line
 				&_bottom
-					display: none
-					
+					display: none		
+			&-description
+				p
+					font-size: 14px		
 	.advantages
+		padding-top: 120px
+		padding-bottom: 100px
 		&__list
+			&-title
+				font-size: 20px
 			&-item
 				font-size: 17px
+		&__text
+			&-title
+				width: 390px
+				h2
+					font-size: 28px
 	.safety
 		&__list
 			&-item
-				font-size: 17px
+				font-size: 16px
+				width: 355px
+		&__text
+			&-title
+				width: 390px
+				h2
+					font-size: 30px
+			&-subtitle
+				width: 380px
 	.assortment
+		padding-top: 100px
+		padding-bottom: 100px
+		&__text
+			&-description
+				width: 410px
 		&__image
 			&-text
 				p
@@ -65,20 +109,31 @@
 				span
 					font-size: 16px
 		&__button
+			display: inline-block
+			max-width: 171px
+			padding: 11px
+			font-size: 13px
 			&s
-				margin-left: auto
-				margin-right: auto 
-				width: 190px
-			padding: 8px
-			margin-right: 0
-			margin-bottom: 15px
-			
+					
+	.delivery
+		&__title
+			h2
+				font-size: 31px
+		&__list
+			&-item
+				font-size: 20px
 	.comfort
+		padding-top: 90px
+		padding-bottom: 120px
 		&__item
 			&-text
 				p
 					font-size: 12px
 	.catalog
+		&__text
+			&-title
+				h2
+					font-size: 28px
 		&__form
 			&-input
 				width: 57%
@@ -93,6 +148,8 @@
 			&-before
 				&::before
 					font-size: 25px
+		&__button
+			width: 86%
 	.prepared
 		&__text
 			&-title
@@ -109,7 +166,7 @@
 	.communication
 		&__form
 			h3
-				font-size: 28px
+				font-size: 27px
 				max-width: 95%
 				margin-left: auto
 				margin-right: auto
@@ -118,32 +175,52 @@
 				max-width: 95%
 				margin-left: auto
 				margin-right: auto
+				margin-bottom: 10px
 			input
-				margin-right: 10px
-				width: 47%
+				margin-right: 5px
+				width: 31%
 			button
 				margin-top: 10px
-				width: 70%
+				width: 31%
+				font-size: 15px
 		&__list
 			&-item
 				font-size: 17px 
+		&__request
+			&-bg
+				top: 30%
 	.discount
+		padding-top: 150px
 		&__form
 			h3
 				max-width: 95%
 				margin-left: auto
 				margin-right: auto
+				fs27
 			h4
 				max-width: 95%
 				margin-left: auto
 				margin-right: auto
 			input 
-				margin-right: 10px
-				width: 47%
+				margin-right: 5px
+				width: 32%
 			button
 				margin-top: 10px
-				width: 60%
+				width: 31%
+				padding: 11px 15px
+				font-size: 16px
+		&__list
+			&-item
+				font-size: 17px
 	.calculation
+		padding-top: 130px
+		&__text
+			&-title
+				h2
+					font-size: 28px
+					line-height: 40px
+			&-description
+				font-size: 18px
 		&__button
 			width: 100%
 		&__list
@@ -159,7 +236,7 @@
 				margin-bottom: 15px
 		&__form
 			h3
-				font-size: 28px
+				font-size: 27px
 				max-width: 95%
 				margin-left: auto
 				margin-right: auto
@@ -168,12 +245,15 @@
 				max-width: 95%
 				margin-left: auto
 				margin-right: auto
+				margin-bottom: 10px
 			input
-				margin-right: 10px
-				width: 47%
+				margin-right: 5px
+				width: 30%
+				font-size: 16px
 			button 
-				width: 70%
+				width: 32%
 				margin-top: 10px
+				font-size: 16px
 	.footer
 		&__address
 			font-size: 16px
@@ -183,6 +263,7 @@
 			font-size: 16px				
 @media (max-width: 991px)
 	.header
+		padding-top: 0
 		&__download
 			&-text
 				font-size: 16px
@@ -194,6 +275,7 @@
 			&-title
 				font-size: 20px
 				line-height: 26px
+				margin-bottom: 0
 			&-subtitle
 				font-size: 12px
 	.main
@@ -231,9 +313,8 @@
 				font-size: 16px
 		&__list
 			&-item
-				font-size: 14px
+				font-size: 16px
 				line-height: 20px 
-				margin-top: 2px
 		&__image
 			&_bg
 				display: none
@@ -247,13 +328,15 @@
 				left: -47px
 				height: 20%
 	.backlight
-		padding: 10px
+		padding: 20px 0 42px
 		&__text
+			margin-bottom: 54px
 			&-title
-				&_important
-					font-size: 23px
+				h2
+					font-size: 22px
 				font-size: 22px
 				line-height: 29px
+				margin-bottom: 4px
 			&-subtitle
 				font-size: 18px
 				line-height: 27px
@@ -265,17 +348,30 @@
 					display: block
 					bottom: -7%
 					width: 70%
-					left: 15px 
+					left: 2px
 				&_left
 					display: none
 				&_top
 					width: 70%
 					top: -20px
-					right: 17px
+					right: 2px
 		&__list
+			width: unset 
 			&-item
-				font-size: 15px
-				line-height: 19px
+				font-size: 14px
+				line-height: 18px
+				margin-top: 6px
+				width: 285px
+				padding-left: 2px
+				&-1
+					&::before
+						top: 50%
+				&-2
+					&::before
+						top: 30%
+				&-3
+					&::before
+						top: 30%
 		&-arrow
 			&_up
 				bottom: 20%
@@ -284,7 +380,13 @@
 				display: none
 			h2
 				font-size: 20px
-				margin-bottom: 0
+				margin-bottom: 10px
+				line-height: 130%
+			&-list
+				line-height: 130%
+				span
+					margin-bottom: 14px
+					display: block
 		&__text
 			&_important
 				color: $text-color-dark 
@@ -297,17 +399,25 @@
 		padding-bottom: 80px
 		&__text
 			&-title
+				margin-bottom: 7px
 				h2
 					font-size: 20px
 					line-height: 26px
 		&__list
+			padding-left: 20px
 			&-title
 				font-size: 16px
 				line-height: 20px
+				margin-bottom: 10px
+				font-family: $montserrat-medium 
 			&-item
 				font-size: 15px
 				line-height: 19px
 				padding-bottom: 0
+				margin-bottom: 4px
+				&::before
+					left: -20px
+				
 		&__line
 			&_top
 				left: 72%
@@ -322,12 +432,14 @@
 		&__text
 			&-title
 				margin-bottom: 0
+				width: 300px
 				h2
 					font-size: 20px
 			&-subtitle
 				font-size: 18px
 				line-height: 23px
 				margin-bottom: 18px
+				width: unset 
 		&__list
 			&-title
 				font-size: 16px
@@ -337,7 +449,10 @@
 				font-size: 15px
 				line-height: 19px
 				margin-bottom: 8px
+				width: 250px
 	.assortment
+		padding-top: 80px
+		padding-bottom: 80px
 		&__text
 			&-title
 				text-align: center
@@ -346,7 +461,7 @@
 			&-description
 				text-align: center
 				font-size: 16px
-				max-width: 400px
+				max-width: 370px
 				margin-left: auto
 				margin-right: auto
 				margin-top: 40px
@@ -357,7 +472,8 @@
 			&s
 				margin-left: auto
 				margin-right: auto 
-				width: 390px
+			&-2
+				margin-right: 0
 		&__image
 			&-text
 				p
@@ -367,29 +483,43 @@
 	.manufacture
 		&__text
 			&-title
+				width: 500px
+				margin-left: auto
+				margin-right: auto
+				margin-bottom: 12px
 				h2
 					font-size: 22px
 					color: $text-color-dark
 					line-height: 28px
 			&-subtitle
+				margin-bottom: 40px
 				h3
 					font-size: 16px
 					line-height: 20px
 					color: $active-color
+					font-family: $montserrat-regular
+					span
+						font-family: $montserrat-semibold 
 	.delivery
 		padding-top: 20px
 		padding-bottom: 10px
 		&__title
+			margin-left: 0
 			h2
 				font-size: 22px
 				line-height: 28px
 		&__list
+			width: 370px
+			padding-left: 0
 			&-item
 				font-size: 16px
 				line-height: 24px
 				margin-bottom: 10px
 				&::before
-					padding: 9px
+					border: none 
+					background: #e3f1f1 url('../img/manufacture/mark-manufacture_media.svg') center no-repeat
+					left: -30px
+					top: 45%
 	.comfort
 		padding-top: 80px
 		padding-bottom: 80px 
@@ -424,6 +554,7 @@
 		padding-bottom: 10px
 		&__text
 			&-title
+				margin-top: 30px
 				h2
 					font-size: 22px
 					line-height: 28px
@@ -455,6 +586,8 @@
 			img
 				max-width: 430px 
 				margin-left: -75px
+				transform: rotate(5deg)
+				margin-top: 0
 	.prepared
 		padding-top: 135px
 		padding-bottom: 80px
@@ -491,6 +624,7 @@
 				h2
 					font-size: 22px
 					text-align: center
+					line-height: 130%
 			&-description
 				font-size: 18px
 				line-height: 23px
@@ -531,6 +665,7 @@
 		padding-bottom: 80px
 		&__text
 			&-title
+				margin-bottom: 10px
 				h2
 					font-size: 22px
 					line-height: 28px
@@ -782,9 +917,10 @@
 @media (max-width: 767px)
 	.header
 		background-color: #FFF 
-		padding-bottom: 20px
+		padding-bottom: 0
 		padding-top: 20px
 		&__text
+			margin-top: 0
 			&-title
 				h2
 					font-size: 14px
@@ -816,7 +952,7 @@
 			-webkit-background-size: cover 
 			-o-background-size: cover 
 			background-size: cover 
-			z-index: -2
+			z-index: 0
 			// Осветление фона
 			&::before
 				content: ''
@@ -866,7 +1002,7 @@
 				display: none
 		&__button
 			min-width: 150px 
-			font-size: 10px
+			font-size: 12px
 			&-2
 				display: none
 			&-1
@@ -897,13 +1033,40 @@
 					margin-right: auto
 				&_important
 					font-size: 20px
+					display: block
 			&-subtitle
 				display: none
+		&__slider
+			min-width: 98% 
+			width: 98%
+			&-item
+				img
+					padding-left: 7px
+			
+			&-numbers
+				left: 50%
+				-webkit-transform: translateX(-50%) 
+				-moz-transform: translateX(-50%) 
+				-ms-transform: translateX(-50%) 
+				-o-transform: translateX(-50%) 
+				transform: translateX(-50%) 
+				width: 35px
+				height: 23px
+				margin-top: 20px
+				&-item
+					font-size: 30px
+					font-family: $heuristica-bold
+					top: -2px
 		&__list
 			&-item
+				width: unset 
 				&-4
+					width: 230px
 					&::before
-						top: 50%
+						top: 30%
+				&-2
+					&::before
+						top: 50%	
 				&-3
 					&::before
 						top: 50%
@@ -913,6 +1076,7 @@
 				font-family: $montserrat-italic
 				font-size: 16px
 				line-height: 25px
+				
 			&-list
 				margin-top: 20px
 				span
@@ -933,15 +1097,30 @@
 					display: none
 		&-arrow
 			&_up
+				display: none
+			&_down	
+				display: none
+		&-numbers
+			&_left
+				bottom: -20px
+				left: -60px
 				background: #fff url('../img/slider/slider-arrow-left_media.png') center no-repeat
-				bottom: -60px
-				left: 30%
+				position: absolute
+				width: 50px
+				height: 50px
+				z-index: 1
+				border: 1px solid #c4c4c4
 				&:hover
 					background: $active-color url('../img/slider/slider-arrow-left_media.png') center no-repeat
-			&_down	
+			&_right
+				bottom: -20px
+				left: 42px
 				background: #fff url('../img/slider/slider-arrow-right_media.png') center no-repeat
-				bottom: -60px
-				left: 50% 
+				position: absolute
+				width: 50px
+				height: 50px
+				z-index: 1
+				border: 1px solid #c4c4c4
 				&:hover
 					background: $active-color url('../img/slider/slider-arrow-right_media.png') center no-repeat
 	.advantages
@@ -949,7 +1128,7 @@
 		padding-bottom: 60px
 		&__text
 			&-title
-				width: 330px
+				width: 319px
 				margin-left: auto
 				margin-right: auto
 				h2
@@ -961,7 +1140,7 @@
 				color: $title-color
 				font-family: $montserrat-italic
 				margin-bottom: 20px
-				max-width: 60%
+				width: 260px
 				margin-left: auto
 				margin-right: auto
 			&-item
@@ -1006,6 +1185,8 @@
 		&__image
 			&-item
 				margin-left: 20px
+				&-2
+					margin-left: 0
 			&-text
 				p
 					font-size: 14px
@@ -1014,7 +1195,7 @@
 	.manufacture
 		&__text
 			&-title
-				width: 100%
+				width: 370px
 				text-align: center
 				margin-left: auto
 				margin-right: auto
@@ -1023,11 +1204,14 @@
 			&-subtitle
 				display: none
 	.delivery
+		padding-bottom: 0
 		&__title
 			text-align: center
+			margin-bottom: 20px
 			h2
 				font-size: 18px
 		&__list
+			padding-left: 60px 
 			&-item
 				&::before
 					background: transparent url('../img/manufacture/mark-manufacture_media.svg') center no-repeat
@@ -1096,8 +1280,8 @@
 				bottom: 50%
 				z-index: 0
 	.prepared
-		padding-top: 60px
-		padding-bottom: 60px
+		padding-top: 40px
+		padding-bottom: 0
 		&__text
 			text-align: center
 			&-title
@@ -1108,6 +1292,7 @@
 				h2
 					font-size: 18px
 					line-height: 23px
+					margin-bottom: 10px
 			&-description
 				font-size: 16px
 		&__line
@@ -1138,6 +1323,7 @@
 					bottom: 0  
 	.completed
 		padding-top: 0
+		padding-bottom: 70px
 		&__line
 			&_top
 				display: none
@@ -1153,19 +1339,24 @@
 				width: 280px
 				margin-left: auto
 				margin-right: auto
-		&-arrow
-			&_up
-				border: 1px solid #c4c4c4
-				&:hover
-					background-color: $active-color
-					border: none 
-			&_down
-				border: 1px solid #c4c4c4
-				&:hover
-					background-color: $active-color
-					border: none 
+			&-subtitle
+				margin-bottom: 10px
+		&__slider
+			&-numbers
+				left: 50%
+				-webkit-transform: translateX(-50%) 
+				-moz-transform: translateX(-50%) 
+				-ms-transform: translateX(-50%) 
+				-o-transform: translateX(-50%) 
+				transform: translateX(-50%) 
+				width: 35px
+				height: 23px
+				margin-top: 20px
+				&-item
+					font-size: 30px
+					font-family: $heuristica-bold
 	.communication
-		padding-top: 60px
+		padding-top: 0
 		padding-bottom: 60px
 		&__text
 			margin-bottom: 40px
@@ -1181,6 +1372,7 @@
 				text-align: left
 			&-item
 				font-size: 14px
+				width: 280px
 		&__form
 			padding: 20px
 			h3
@@ -1191,9 +1383,11 @@
 				line-height: 18px
 			input
 				margin-right: 2px
+				max-width: unset
 				width: 48%
 			button
-				width: 98%
+				max-width: unset
+				width: 98% 
 	.discount
 		padding-top: 0	
 		&__form
@@ -1226,10 +1420,12 @@
 				line-height: 18px
 			input
 				margin-right: 2px
+				max-width: unset
 				width: 48%
 				border: none
 			button
-				width: 98%
+				max-width: unset
+				width: 98% 
 	.calculation
 		padding-top: 200px
 		&__content
@@ -1256,21 +1452,27 @@
 				margin-bottom: 10px
 				h2
 					font-size: 16px
+					line-height: 130%
 			&-description
 				font-size: 14px
 				text-align: center
 				line-height: 18px
 				margin-bottom: 10px
+				width: 245px
+				margin-left: auto
+				margin-right: auto
 		&__list
 			&-text
 				margin-top: 20px
 			&-title
 				text-align: center
-				font-size: 16px
+				font-size: 15px
 				line-height: 20px
 				margin-bottom: 10px
+				font-family: $montserrat-regular
+				width: 295px
 			&-item
-				font-size: 14px
+				font-size: 13px
 				line-height: 18px
 		&__form
 			background-color: #eceff1
@@ -1285,10 +1487,12 @@
 				margin-bottom: 20px
 			input
 				margin-right: 2px
+				max-width: unset
 				width: 48%
 				border: none
 			button
-				width: 98%
+				max-width: unset
+				width: 98% 
 		&__request
 			margin-right: auto
 			margin-left: auto
@@ -1360,8 +1564,7 @@
 		&__social
 			&-icons
 				a
-					margin-right: 5px
-		
+					margin-right: 5px	
 	.modal
 		&__form
 			width: 450px
@@ -1383,7 +1586,34 @@
 			top: -15px
 			font-size: 34px
 @media (max-width: 480px)
+	.header
+		padding-bottom: 0
+		&__text
+			&-title
+				font-size: 14px
+		&__download
+			&-text
+				font-size: 12px
+				line-height: 110% 
+	.main
+		padding-top: 15px	
+	.backlight
+		&__slider
+			&-item
+				img
+					padding-left: 9px
+	.delivery
+		&__list
+			width: 300px
+			padding-left: 20px
+			&-item
+				font-size: 14px
 	.catalog
+		&__text
+			&-title
+				width: 300px
+				h2
+					font-size: 16px
 		&__checkbox
 			&-text
 				font-size: 5px
@@ -1391,20 +1621,15 @@
 		&__image
 			&-text
 				&_bottom
-					bottom: -110px
+					bottom: -85px
 	.assortment
 		&__button
 			font-size: 12px
-	.backlight
-		&-arrow
-			&_up
-				left: 30%
-			&_down
-				left: 50%
-	.completed
-		&-arrow
-			&_up
-				left: 27%
+	.cooperation
+		&__list
+			&-title
+				max-width: 480px
+				width: unset  
 	.modal
 		&__form
 			width: 300px
@@ -1426,35 +1651,26 @@
 		&__subtitle
 			font-size: 18px
 @media (max-width: 400px)
+	.header
+		&__text
+			margin-top: 0
+			&-title
+				line-height: 16px
+		&__download
+			&-text
+				line-height: 16px
 	.main
 		&__title
 			h1
-				font-size: 18px
+				font-size: 17px	
 		&__subtitle
-			width: unset 
+			width: 237px
 			h3
-				font-size: 16px				
+				font-size: 15px	
 	.backlight
-		&__text
-			&-title
-				h2
-					font-size: 16px
-				&_important
-					font-size: 16px
-			&_important
-				font-size: 14px
-		&__advantages
-			h2
-				font-size: 14px
-			&-list
-				span
-					font-size: 14px
 		&__list
 			&-item
-				font-size: 12px
-		&-arrow
-			&_up
-				left: 22%		
+				font-size: 12px	
 	.advantages
 		&__text
 			&-title
@@ -1465,12 +1681,13 @@
 			width: unset 
 			&-title
 				font-size: 14px
+				width: 220px
 			&-item
 				font-size: 12px					
 	.safety
 		&__text
 			&-title
-				width: 100%
+				width: 205px
 				h2
 					font-size: 16px
 			&-subtitle
@@ -1480,25 +1697,35 @@
 			&-title
 				font-size: 12px
 			&-item
-				font-size: 12px				
+				font-size: 12px	
+				width: 200px			
 	.assortment
 		&__text
 			&-title
+				width: 205px
+				margin-left: auto
+				margin-right: auto
 				h2
 					font-size: 16px
 			&-description
 				font-size: 12px
-				width: 100%
+				width: 220px
 		&__image
-			&-item
-				margin-left: -100px
-				&_media
-					display: none
-		&__buttons
-			width: 200px				
+			img
+				width: 37px
+			&-text
+				p
+					font-size: 12px
+					span
+						font-size: 14px
+		&__button
+			margin-bottom: 10px
+			&s
+				width: 170px				
 	.manufacture
 		&__text
 			&-title
+				width: 290px
 				h2
 					font-size: 16px
 	.delivery
@@ -1506,12 +1733,13 @@
 			h2
 				font-size: 16px
 		&__list
+			width: 270px
 			&-item
-				font-size: 14px
+				font-size: 12px
 		
 	.comfort
 		&__title
-			width: 100%
+			width: 240px
 			h2
 				font-size: 16px	
 		&__image
@@ -1520,11 +1748,14 @@
 					font-size: 16px
 				&_bottom
 					font-size: 12px
-					bottom: -95px
+					bottom: -85px
+					width: 85%
 	.catalog
 		&__text
 			&-title
-				width: 100%
+				width: 237px
+				margin-left: auto
+				margin-right: auto
 				h2
 					font-size: 16px
 	.prepared
@@ -1543,7 +1774,7 @@
 	.completed
 		&__text
 			&-title
-				width: 100%
+				width: 200px
 				h2
 					font-size: 16px
 			&-subtitle
@@ -1560,6 +1791,7 @@
 				font-size: 14px
 			&-item
 				font-size: 12px
+				width: 240px
 		&__form
 			input
 				font-size: 12px
@@ -1600,6 +1832,10 @@
 				font-size: 12px
 				margin-bottom: 8px
 				width: 100%
+		&__text
+			&-description
+				width: 210px
+				font-size: 12px
 	.contact
 		&__block
 			&-address
@@ -1626,3 +1862,4 @@
 				font-size: 12px
 		&__schedule
 			font-size: 10px
+			
