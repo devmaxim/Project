@@ -509,7 +509,7 @@
 				font-size: 22px
 				line-height: 28px
 		&__list
-			width: 370px
+			width: 380px
 			padding-left: 0
 			&-item
 				font-size: 16px
@@ -1178,10 +1178,18 @@
 		padding-top: 60px
 		padding-bottom: 40px
 		&__text
+			&-title
+				width: 220px
+				margin-left: auto
+				margin-right: auto
+				h2
+					font-size: 20px
+					line-height: 130%
 			&-description
 				text-align: center
 				margin-bottom: 25px
 				width: 300px
+				line-height: 130%
 		&__image
 			&-item
 				margin-left: 20px
@@ -1200,7 +1208,8 @@
 				margin-left: auto
 				margin-right: auto
 				h2
-					font-size: 20px
+					font-size: 18px
+					line-height: 130%
 			&-subtitle
 				display: none
 	.delivery
@@ -1210,9 +1219,11 @@
 			margin-bottom: 20px
 			h2
 				font-size: 18px
+				line-height: 130%
 		&__list
 			padding-left: 60px 
 			&-item
+				font-size: 14px
 				&::before
 					background: transparent url('../img/manufacture/mark-manufacture_media.svg') center no-repeat
 					border: none
@@ -1221,6 +1232,8 @@
 		padding-bottom: 60px
 		&__title
 			width: 330px
+			h2
+				font-size: 18px
 		&__image
 			width: 80%
 			margin-left: auto
@@ -1303,6 +1316,14 @@
 	.change
 		padding-top: 60px
 		padding-bottom: 60px
+		&__text
+			&-title
+				width: 250px
+				margin-left: auto
+				margin-right: auto
+				h2
+					font-size: 18px
+					line-height: 130%
 		&__line
 			&_top
 				display: none
@@ -1336,11 +1357,15 @@
 			margin-left: auto
 			margin-right: auto
 			&-title
-				width: 280px
+				width: 225px
 				margin-left: auto
 				margin-right: auto
+				h2
+					font-size: 18px
 			&-subtitle
 				margin-bottom: 10px
+				h3
+					font-size: 16px
 		&__slider
 			&-numbers
 				left: 50%
@@ -1364,6 +1389,9 @@
 				width: 220px
 				margin-left: auto
 				margin-right: auto
+				h2
+					font-size: 18px
+					line-height: 130%
 		&__list
 			&-text
 				max-width: 80%
@@ -1398,6 +1426,7 @@
 		&__text
 			&-title
 				text-align: center
+				font-size: 18px
 		&__list
 			&-title
 				font-size: 16px
@@ -1442,6 +1471,13 @@
 				max-width: 80%
 				margin-left: auto
 				margin-right: auto 
+				width: 220px
+				h2
+					font-size: 18px
+					line-height: 130%
+			&-description
+				font-size: 16px
+				line-height: 130%
 	.cooperation
 		padding-top: 60px
 		padding-bottom: 60px
@@ -1602,6 +1638,9 @@
 			&-item
 				img
 					padding-left: 9px
+		&__advantages
+			h2
+				line-height: 130%
 	.delivery
 		&__list
 			width: 300px
@@ -1618,18 +1657,72 @@
 			&-text
 				font-size: 5px
 	.comfort
+		&__title
+			h2
+				font-size: 18px
+				line-height: 130%
 		&__image
 			&-text
 				&_bottom
 					bottom: -85px
+	.change
+		&__text
+			&-title
+				h2
+					font-size: 18px
+					line-height: 130%
 	.assortment
+		&__text
+			&-title
+				h2
+					font-size: 20px
+					line-height: 130%
+			&-description
+				line-height: 140%
 		&__button
 			font-size: 12px
+	.manufacture
+		&__text
+			&-title
+				h2
+					line-height: 130%
+	.delivery
+		&__title
+			h2
+				line-height: 130%
 	.cooperation
 		&__list
 			&-title
 				max-width: 480px
 				width: unset  
+	.completed
+		&__text
+			&-title
+				width: 240px
+				h2
+					font-size: 18px
+					line-height: 130%
+			&-subtitle
+				h3
+					font-size: 16px
+	.communication
+		&__text
+			&-title
+				h2
+					font-size: 18px
+	.discount
+		&__text
+			&-title
+				font-size: 18px
+	.calculation
+		&__text
+			&-title
+				h2
+					font-size: 18px
+					line-height: 130%
+			&-description
+				font-size: 16px
+				line-height: 130%
 	.modal
 		&__form
 			width: 300px
@@ -1661,22 +1754,28 @@
 				line-height: 16px
 	.main
 		&__title
+			margin-bottom: 11px
 			h1
-				font-size: 17px	
+				font-size: 18px	
+				line-height: 130%
 		&__subtitle
 			width: 237px
+			margin-top: 0
 			h3
 				font-size: 15px	
 	.backlight
 		&__list
 			&-item
 				font-size: 12px	
+		&__advantages
+			h2
+				line-height: 130%
 	.advantages
 		&__text
 			&-title
 				width: unset 
 				h2
-					font-size: 16px
+					font-size: 18px
 		&__list
 			width: unset 
 			&-title
@@ -1687,9 +1786,9 @@
 	.safety
 		&__text
 			&-title
-				width: 205px
+				width: 235px
 				h2
-					font-size: 16px
+					font-size: 18px
 			&-subtitle
 				font-size: 12px
 		&__list
@@ -1702,14 +1801,15 @@
 	.assortment
 		&__text
 			&-title
-				width: 205px
+				width: 235px
 				margin-left: auto
 				margin-right: auto
 				h2
-					font-size: 16px
+					font-size: 20px
 			&-description
 				font-size: 12px
 				width: 220px
+				line-height: 140%
 		&__image
 			img
 				width: 37px
@@ -1721,27 +1821,31 @@
 		&__button
 			margin-bottom: 10px
 			&s
-				width: 170px				
+				width: 181px				
 	.manufacture
 		&__text
 			&-title
 				width: 290px
 				h2
 					font-size: 16px
+					line-height: 130%
 	.delivery
 		&__title
 			h2
-				font-size: 16px
+				font-size: 18px
+				line-height: 130%
 		&__list
 			width: 270px
 			&-item
 				font-size: 12px
+				line-height: 150%
 		
 	.comfort
 		&__title
-			width: 240px
+			width: 250px
 			h2
-				font-size: 16px	
+				font-size: 18px
+				line-height: 130%	
 		&__image
 			&-text
 				h3
@@ -1761,31 +1865,40 @@
 	.prepared
 		&__text
 			&-title
-				width: 100%
+				width: 250px
+				max-width: unset 
 				h2
-					font-size: 16px
+					font-size: 18px
+					line-height: 130%
 			&-description
-				font-size: 14px
+				font-size: 16px
+				line-height: 130%
 	.change
 		&__text
 			&-title
 				h2
-					font-size: 16px
+					font-size: 18px
+					line-height: 130%
 	.completed
 		&__text
+			width: 100%
 			&-title
-				width: 200px
+				width: 250px
 				h2
-					font-size: 16px
+					font-size: 18px
+					line-height: 130%
 			&-subtitle
 				h3
-					font-size: 14px
+					font-size: 16px
+					line-height: 130%
 					
 	.communication
 		&__text
 			&-title
+				margin-bottom: 10px
 				h2
 					font-size: 16px
+					line-height: 130%
 		&__list
 			&-title
 				font-size: 14px
@@ -1800,7 +1913,7 @@
 	.discount
 		&__text
 			&-title
-				font-size: 16px
+				font-size: 17px
 		&__list
 			&-title
 				font-size: 14px
@@ -1816,9 +1929,12 @@
 			&-title
 				max-width: 100%
 				h2
-					font-size: 16px
+					font-size: 18px
+					line-height: 130%
 			&-description
 				font-size: 12px
+				line-height: 130%
+				width: 210px
 		&__button
 			font-size: 16px
 	.cooperation
@@ -1834,7 +1950,7 @@
 				width: 100%
 		&__text
 			&-description
-				width: 210px
+				width: 180px
 				font-size: 12px
 	.contact
 		&__block
