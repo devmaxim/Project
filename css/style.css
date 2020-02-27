@@ -2619,7 +2619,8 @@ button:focus {
         .backlight__text-title h2 {
           font-size: 20px;
           margin-left: auto;
-          margin-right: auto; }
+          margin-right: auto;
+          line-height: 130%; }
         .backlight__text-title_important {
           font-size: 20px;
           display: block; }
@@ -2709,7 +2710,8 @@ button:focus {
       margin-left: auto;
       margin-right: auto; }
       .advantages__text-title h2 {
-        text-align: center; }
+        text-align: center;
+        line-height: 130%; }
     .advantages__list {
       width: 320px; }
       .advantages__list-title {
@@ -2823,7 +2825,7 @@ button:focus {
       margin-right: auto; }
       .catalog__text-title h2 {
         font-size: 18px;
-        line-height: 23px; }
+        line-height: 130%; }
     .catalog__text-description {
       font-size: 16px; }
     .catalog__form {
@@ -2865,7 +2867,7 @@ button:focus {
         margin-right: auto; }
         .prepared__text-title h2 {
           font-size: 18px;
-          line-height: 23px;
+          line-height: 130%;
           margin-bottom: 10px; }
       .prepared__text-description {
         font-size: 16px; }
